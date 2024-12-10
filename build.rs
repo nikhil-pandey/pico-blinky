@@ -20,6 +20,10 @@ fn main() {
             "https://github.com/embassy-rs/embassy/raw/refs/heads/main/cyw43-firmware/43439A0_clm.bin",
             "F43439A0_clm_bin",
         ),
+        (
+            "https://github.com/embassy-rs/embassy/raw/refs/heads/main/cyw43-firmware/43439A0_btfw.bin",
+            "F43439A0_btfw_bin",
+        ),
     ];
 
     let mut bindings = String::new();
