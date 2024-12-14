@@ -148,7 +148,7 @@ async fn main(spawner: Spawner) {
         let client_state = TcpClientState::<1, 1024, 1024>::new();
         let tcp_client = TcpClient::new(stack, &client_state);
         let dns_client = DnsSocket::new(stack);
-        let tls_config = TlsConfig::new(
+        let _tls_config = TlsConfig::new(
             seed,
             &mut tls_read_buffer,
             &mut tls_write_buffer,
